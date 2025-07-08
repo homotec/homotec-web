@@ -47,6 +47,13 @@ const Header = () => {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
               </Link>
               <Link 
+                href="/odoo" 
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 relative group"
+              >
+                Odoo
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
+              </Link>
+              <Link 
                 href="/#kitdigital" 
                 className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 relative group"
               >
@@ -105,6 +112,13 @@ const Header = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Soluciones IA
+              </Link>
+              <Link 
+                href="/odoo" 
+                className="px-4 py-3 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-300 font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Odoo
               </Link>
               <Link 
                 href="/#kitdigital" 
