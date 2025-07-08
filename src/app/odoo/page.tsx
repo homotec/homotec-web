@@ -118,11 +118,13 @@ const OdooPage = () => {
                   </li>
                 </ul>
               </div>
-              <div className="relative w-full h-64 lg:h-auto" style={{ aspectRatio: '1/1' }}>
-                {/* Placeholder for a team image or something similar */}
-                <div className="w-full h-full bg-white/10 rounded-2xl flex items-center justify-center">
-                  <span className="text-gray-400">Partner de Confianza</span>
-                </div>
+              <div className="relative w-full h-auto" style={{ aspectRatio: '1/1' }}>
+                <Image
+                  src="/images/partners.png"
+                  alt="Partners de Homotec"
+                  fill
+                  className="rounded-2xl object-contain"
+                />
               </div>
             </div>
           </div>
