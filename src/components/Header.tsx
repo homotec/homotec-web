@@ -97,7 +97,7 @@ const Header = () => {
           </div>
 
           {/* Mobile Navigation */}
-          <div className={`lg:hidden overflow-hidden transition-all duration-300 ${isMenuOpen ? 'max-h-80 pb-4' : 'max-h-0'}`}>
+          <div className={`lg:hidden overflow-hidden transition-all duration-300 ${isMenuOpen ? 'max-h-96 pb-4' : 'max-h-0'}`}>
             <nav className="flex flex-col space-y-2 pt-4 border-t border-gray-100">
               <Link 
                 href="/" 
