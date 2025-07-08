@@ -116,7 +116,7 @@ const Footer = () => {
                 </svg>
                 <div>
                   <p className="text-gray-300">Ubicación</p>
-                  <p className="text-white">Carrer d'Alfons el Magnànim, 38<br/>Palma de Mallorca, España</p>
+                  <p className="text-white">Carrer d&apos;Alfons el Magnànim, 38<br/>Palma de Mallorca, España</p>
                 </div>
               </div>
             </div>

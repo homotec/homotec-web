@@ -83,7 +83,7 @@ const ContactPage = () => {
                       Visítanos en nuestra sede de Palma de Mallorca.
                     </p>
                     <p className="text-lg text-purple-600 font-medium">
-                      Carrer d'Alfons el Magnànim, 38<br/>Palma de Mallorca, España
+                      Carrer d&apos;Alfons el Magnànim, 38<br/>Palma de Mallorca, España
                     </p>
                   </div>
                 </div>

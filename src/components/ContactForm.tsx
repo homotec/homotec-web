@@ -41,7 +41,7 @@ const ContactForm = () => {
         setStatus('error');
         setMessage(data.error || 'Hubo un problema al enviar el mensaje.');
       }
-    } catch (error) {
+    } catch {
       setStatus('error');
       setMessage('Hubo un problema al conectar con el servidor.');
     }

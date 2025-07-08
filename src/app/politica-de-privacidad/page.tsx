@@ -20,7 +20,7 @@ export default function PoliticaPrivacidadPage() {
           <ul>
             <li><strong>Denominación Social:</strong> Homotec Servicios Informaticos SLU</li>
             <li><strong>NIF:</strong> B57304636</li>
-            <li><strong>Domicilio Social:</strong> Carrer d'Alfons el Magnànim, 38, Palma de Mallorca, Illes Balears, España.</li>
+            <li><strong>Domicilio Social:</strong> Carrer d&apos;Alfons el Magnànim, 38, Palma de Mallorca, Illes Balears, España.</li>
             <li><strong>Correo electrónico de contacto:</strong> info@homotec.es</li>
           </ul>
 
@@ -52,7 +52,7 @@ export default function PoliticaPrivacidadPage() {
             Puede ejercer sus derechos de acceso, rectificación, supresión y portabilidad de sus datos, de limitación y oposición a su tratamiento, así como a no ser objeto de decisiones basadas únicamente en el tratamiento automatizado de sus datos, cuando procedan, ante:
           </p>
           <p>
-            Homotec Servicios Informaticos SLU, en Carrer d'Alfons el Magnànim, 38, Palma de Mallorca, o en la dirección de correo electrónico info@homotec.es.
+            Homotec Servicios Informaticos SLU, en Carrer d&apos;Alfons el Magnànim, 38, Palma de Mallorca, o en la dirección de correo electrónico info@homotec.es.
           </p>
           <p>
             Asimismo, tiene derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD) si considera que el tratamiento de sus datos no se ajusta a la normativa.

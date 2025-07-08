@@ -18,7 +18,7 @@ export default function KitDigital() {
             Acelera tu Digitalización con Homotec y el Programa Kit Digital
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            En Homotec, somos Agente Digitalizador Adherido al Programa Kit Digital, una iniciativa del Gobierno de España financiada por la Unión Europea – Next Generation EU. Te ayudamos a conseguir tu "bono digital" para acceder a soluciones de digitalización clave y mejorar tu competitividad en cualquier sector y lugar de España.
+            En Homotec, somos Agente Digitalizador Adherido al Programa Kit Digital, una iniciativa del Gobierno de España financiada por la Unión Europea – Next Generation EU. Te ayudamos a conseguir tu &quot;bono digital&quot; para acceder a soluciones de digitalización clave y mejorar tu competitividad en cualquier sector y lugar de España.
           </p>
         </div>
 
@@ -208,7 +208,7 @@ export default function KitDigital() {
           <div className="bg-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 flex flex-col">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">14. Gestión de Clientes con IA</h3>
             <p className="text-gray-600 mb-4"><strong className="font-semibold text-gray-800">Objetivo:</strong> Optimizar la gestión de clientes y agilizar interacciones usando inteligencia artificial.</p>
-            <p className="text-gray-600 mb-4"><strong className="font-semibold text-gray-800">Caso de Uso:</strong> Una empresa online que desea implementar "lead scoring" predictivo y automatizar "journeys de venta".</p>
+            <p className="text-gray-600 mb-4"><strong className="font-semibold text-gray-800">Caso de Uso:</strong> Una empresa online que desea implementar &quot;lead scoring&quot; predictivo y automatizar &quot;journeys de venta&quot;.</p>
             <div className="mt-auto pt-4 border-t border-gray-200">
               <p className="font-semibold text-gray-800 mb-2">Importes Máximos de Ayuda:</p>
               <ul className="list-disc list-inside text-gray-600">

@@ -18,7 +18,7 @@ export default function AvisoLegalPage() {
           <ul>
             <li><strong>Denominación Social:</strong> Homotec Servicios Informaticos SLU</li>
             <li><strong>NIF:</strong> B57304636</li>
-            <li><strong>Domicilio Social:</strong> Carrer d'Alfons el Magnànim, 38, Palma de Mallorca, Illes Balears, España.</li>
+            <li><strong>Domicilio Social:</strong> Carrer d&apos;Alfons el Magnànim, 38, Palma de Mallorca, Illes Balears, España.</li>
             <li><strong>Teléfono de contacto:</strong> +34 619 920 747</li>
             <li><strong>Correo electrónico de contacto:</strong> info@homotec.es</li>
           </ul>
@@ -28,7 +28,7 @@ export default function AvisoLegalPage() {
             El acceso y/o uso de este Sitio Web atribuye la condición de USUARIO, que acepta, desde dicho acceso y/o uso, las Condiciones Generales de Uso aquí reflejadas. Las citadas Condiciones serán de aplicación independientemente de las Condiciones Generales de Contratación que en su caso resulten de obligado cumplimiento.
           </p>
           <p>
-            El Sitio Web proporciona el acceso a multitud de informaciones, servicios, programas o datos (en adelante, "los contenidos") en Internet pertenecientes a Homotec o a sus licenciantes a los que el USUARIO pueda tener acceso. El USUARIO asume la responsabilidad del uso del portal.
+            El Sitio Web proporciona el acceso a multitud de informaciones, servicios, programas o datos (en adelante, &quot;los contenidos&quot;) en Internet pertenecientes a Homotec o a sus licenciantes a los que el USUARIO pueda tener acceso. El USUARIO asume la responsabilidad del uso del portal.
           </p>
 
           <h2>3. Propiedad Intelectual e Industrial</h2>
