@@ -126,32 +126,53 @@ const AboutUsPage = () => {
         </div>
       </section>
 
-      {/* Odoo Experience Section */}
-      <section className="py-20 bg-white">
+      {/* Odoo Platform Section */}
+      <section className="py-20 lg:py-28 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="bg-gradient-to-br from-gray-800 to-blue-900 rounded-2xl p-12 text-white">
-            <div className="grid lg:grid-cols-3 gap-8 items-center">
-              <div className="lg:col-span-1">
-                <div className="w-24 h-24 bg-white/10 rounded-2xl flex items-center justify-center mx-auto lg:mx-0 mb-6">
-                  {/* Placeholder for Odoo Logo */}
-                  <span className="text-2xl font-bold">Odoo</span>
-                </div>
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+              Potenciamos tu Negocio con{' '}
+              <span className="bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">
+                Odoo
+              </span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              Odoo es un software de gestión empresarial &quot;todo en uno&quot; que centraliza y simplifica todas las operaciones de tu empresa. Nuestra experiencia en su implementación nos permite crear soluciones que se adaptan perfectamente a tus necesidades.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Feature 1: Centralization */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 flex flex-col">
+              <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-xl flex items-center justify-center mb-6">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
               </div>
-              <div className="lg:col-span-2 text-center lg:text-left">
-                <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                  Nuestra Experiencia con{' '}
-                  <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Odoo</span>
-                </h2>
-                <p className="text-xl text-gray-300 mb-4 leading-relaxed">
-                  Nuestra profunda experiencia en la implementación y personalización de Odoo nos proporciona una 
-                  comprensión única de los procesos empresariales.
-                </p>
-                <p className="text-lg text-gray-400">
-                  Esta base nos permite diseñar soluciones de IA que no solo son tecnológicamente avanzadas, 
-                  sino que también se integran perfectamente en los flujos de trabajo existentes, 
-                  resolviendo problemas reales de negocio y garantizando una adopción exitosa.
-                </p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Información Unificada</h3>
+              <p className="text-gray-600">
+                Odoo conecta todas tus áreas de negocio (ventas, contabilidad, inventario). Cuando se realiza una venta, la factura se genera y el stock se actualiza automáticamente. Se acabaron los datos duplicados y los errores manuales.
+              </p>
+            </div>
+
+            {/* Feature 2: Automation */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 flex flex-col">
+              <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-xl flex items-center justify-center mb-6">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
               </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Automatización de Procesos</h3>
+              <p className="text-gray-600">
+                Libera a tu equipo de tareas repetitivas. Odoo automatiza flujos de trabajo como el envío de facturas, seguimiento de pagos o la gestión de proyectos, permitiendo que tu personal se centre en tareas de mayor valor.
+              </p>
+            </div>
+
+            {/* Feature 3: 360 Vision */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 flex flex-col">
+              <div className="w-16 h-16 bg-gradient-to-br from-emerald-500 to-green-500 rounded-xl flex items-center justify-center mb-6">
+              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Visión de Negocio 360°</h3>
+              <p className="text-gray-600">
+                Al tener todos los datos en un solo lugar, Odoo genera informes y paneles de control en tiempo real. Obtén una visión clara de la salud de tu empresa para tomar decisiones estratégicas basadas en datos, no en intuiciones.
+              </p>
             </div>
           </div>
         </div>
