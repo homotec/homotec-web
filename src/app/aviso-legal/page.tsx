@@ -13,14 +13,14 @@ export default function AvisoLegalPage() {
         <div className="mt-8 prose prose-lg text-gray-600 mx-auto">
           <h2>1. Información General</h2>
           <p>
-            En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa de que el presente sitio web, www.homotec.es (en adelante, el Sitio Web), es titularidad de:
+            En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa de que el presente sitio web, www.homotec.com (en adelante, el Sitio Web), es titularidad de:
           </p>
           <ul>
             <li><strong>Denominación Social:</strong> Homotec Servicios Informaticos SLU</li>
             <li><strong>NIF:</strong> B57304636</li>
             <li><strong>Domicilio Social:</strong> Carrer d&apos;Alfons el Magnànim, 38, Palma de Mallorca, Illes Balears, España.</li>
             <li><strong>Teléfono de contacto:</strong> +34 619 920 747</li>
-            <li><strong>Correo electrónico de contacto:</strong> info@homotec.es</li>
+            <li><strong>Correo electrónico de contacto:</strong> info@homotec.com</li>
           </ul>
 
           <h2>2. Condiciones Generales de Uso</h2>

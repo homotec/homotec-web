@@ -21,7 +21,7 @@ export default function PoliticaCookiesPage() {
 
           <h2>¿Cómo utilizamos las cookies?</h2>
           <p>
-            En www.homotec.es, utilizamos principalmente cookies técnicas y esenciales que son necesarias para el correcto funcionamiento del sitio web. Estas cookies no requieren el consentimiento informado del usuario según la normativa vigente.
+            En www.homotec.com, utilizamos principalmente cookies técnicas y esenciales que son necesarias para el correcto funcionamiento del sitio web. Estas cookies no requieren el consentimiento informado del usuario según la normativa vigente.
           </p>
           <ul>
             <li>
