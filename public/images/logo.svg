@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 608" width="100%" height="auto" style="background: transparent;">
+  <g id="icon" transform="translate(0,0)">
+    <circle cx="220" cy="200" r="120" fill="#0A2F55">
+      <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1 1" to="1.2 1.2" begin="0.0s" dur="0.6s" repeatCount="indefinite" additive="sum" fill="freeze" values="1 1;1.2 1.2;1 1"/>
+    </circle>
+    <circle cx="390" cy="380" r="90" fill="#0A2F55">
+      <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1 1" to="1.2 1.2" begin="0.3s" dur="0.6s" repeatCount="indefinite" additive="sum" fill="freeze" values="1 1;1.2 1.2;1 1"/>
+    </circle>
+    <circle cx="420" cy="90" r="90" fill="#0A2F55">
+      <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1 1" to="1.2 1.2" begin="0.6s" dur="0.6s" repeatCount="indefinite" additive="sum" fill="freeze" values="1 1;1.2 1.2;1 1"/>
+    </circle>
+    <circle cx="280" cy="270" r="60" fill="#0A2F55">
+      <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1 1" to="1.2 1.2" begin="0.8999999999999999s" dur="0.6s" repeatCount="indefinite" additive="sum" fill="freeze" values="1 1;1.2 1.2;1 1"/>
+    </circle>
+  </g>
+</svg>
