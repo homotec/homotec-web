@@ -275,17 +275,17 @@ export default function AgenteDigitalizadorMallorca() {
             Empresas de Mallorca que ya han confiado en nosotros
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
-            <a href="https://www.playadorada.es/es/" target="_blank" rel="noopener noreferrer" className="flex justify-center">
-              <Image src="https://www.playadorada.es/es/images/logo-playa-dorada.png" alt="Logo Hotel Playa Dorada" width={150} height={50} className="grayscale hover:grayscale-0 transition-all duration-300" />
+            <a href="https://www.playadorada.es/es/" target="_blank" rel="noopener noreferrer" className="flex justify-center text-gray-600 font-semibold hover:text-blue-600 transition-colors">
+              Hotel Playa Dorada
             </a>
-            <a href="https://www.gimenoalcala.com/" target="_blank" rel="noopener noreferrer" className="flex justify-center">
-              <Image src="https://www.gimenoalcala.com/logo-gimeno-alcala-sl.png" alt="Logo Pinturas Gimeno" width={150} height={50} className="grayscale hover:grayscale-0 transition-all duration-300" />
+            <a href="https://www.gimenoalcala.com/" target="_blank" rel="noopener noreferrer" className="flex justify-center text-gray-600 font-semibold hover:text-blue-600 transition-colors">
+              Pinturas Gimeno
             </a>
             <a href="https://www.lacapricciosaesporles.com/" target="_blank" rel="noopener noreferrer" className="flex justify-center text-gray-600 font-semibold hover:text-blue-600 transition-colors">
               Pizzeria La Capricciosa
             </a>
-            <a href="https://www.sestepa.com/" target="_blank" rel="noopener noreferrer" className="flex justify-center">
-              <Image src="https://www.sestepa.com/wp-content/uploads/2021/01/sestepa-jardineria-logo.svg" alt="Logo S'Estepa Jardinería" width={150} height={50} className="grayscale hover:grayscale-0 transition-all duration-300" />
+            <a href="https://www.sestepa.com/" target="_blank" rel="noopener noreferrer" className="flex justify-center text-gray-600 font-semibold hover:text-blue-600 transition-colors">
+              S'Estepa Jardinería
             </a>
           </div>
         </div>
