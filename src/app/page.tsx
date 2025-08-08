@@ -3,8 +3,8 @@ import type { Metadata } from 'next';
 import KitDigital from '@/components/KitDigital';
 
 export const metadata: Metadata = {
-  title: 'Empresa de Servicios Informáticos en Mallorca | Homotec',
-  description: 'Homotec es tu empresa de servicios informáticos en Mallorca. Ofrecemos soluciones de IA, desarrollo a medida y somos tu Agente Digitalizador de confianza.',
+  title: 'Agente Digitalizador en Mallorca | Kit Digital | Homotec',
+  description: 'Impulsa tu negocio en Mallorca con el Kit Digital. En Homotec, como tu Agente Digitalizador, te ayudamos a conseguir la subvención y a implementar las mejores soluciones.',
 };
 
 export default function Home() {

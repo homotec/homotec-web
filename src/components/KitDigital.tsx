@@ -8,17 +8,17 @@ export default function KitDigital() {
           <div className="flex justify-center mb-8">
             <Image 
               src="/images/kit-digital/logo-kit-digital.svg" 
-              alt="Logo Kit Digital" 
+              alt="Logo del Programa Kit Digital ofrecido por Homotec, Agente Digitalizador en Mallorca" 
               width={1200} 
               height={600}
               className="h-auto w-full max-w-6xl"
             />
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Acelera tu Digitalización con Homotec y el Programa Kit Digital
+            Tu Agente Digitalizador en Mallorca para el Kit Digital
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            En Homotec, somos Agente Digitalizador Adherido al Programa Kit Digital, una iniciativa del Gobierno de España financiada por la Unión Europea – Next Generation EU. Te ayudamos a conseguir tu &quot;bono digital&quot; para acceder a soluciones de digitalización clave y mejorar tu competitividad en cualquier sector y lugar de España.
+            En Homotec, como tu Agente Digitalizador en Mallorca, te guiamos para que aproveches al máximo el programa Kit Digital. Esta iniciativa del Gobierno de España, con fondos de la Unión Europea – Next Generation EU, te proporciona un "bono digital" para implantar soluciones clave y potenciar tu negocio.
           </p>
         </div>
 
