@@ -18,7 +18,7 @@ export default function KitDigital() {
             Tu Agente Digitalizador en Mallorca para el Kit Digital
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            En Homotec, como tu Agente Digitalizador en Mallorca, te guiamos para que aproveches al máximo el programa Kit Digital. Esta iniciativa del Gobierno de España, con fondos de la Unión Europea – Next Generation EU, te proporciona un "bono digital" para implantar soluciones clave y potenciar tu negocio.
+            En Homotec, como tu Agente Digitalizador en Mallorca, te guiamos para que aproveches al máximo el programa Kit Digital. Esta iniciativa del Gobierno de España, con fondos de la Unión Europea – Next Generation EU, te proporciona un &quot;bono digital&quot; para implantar soluciones clave y potenciar tu negocio.
           </p>
         </div>
 
