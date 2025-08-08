@@ -1,13 +1,18 @@
+'use client';
+
 import Image from 'next/image';
 import type { Metadata } from 'next';
-import KitDigital from '@/components/KitDigital';
-
-export const metadata: Metadata = {
-  title: 'Agente Digitalizador en Mallorca | Kit Digital | Homotec',
-  description: 'Impulsa tu negocio en Mallorca con el Kit Digital. En Homotec, como tu Agente Digitalizador, te ayudamos a conseguir la subvención y a implementar las mejores soluciones.',
-};
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function Home() {
+  const router = useRouter();
+
+  useEffect(() => {
+    if (window.location.hash === '#kitdigital') {
+      router.replace('/agente-digitalizador-mallorca');
+    }
+  }, [router]);
   return (
     <>
       {/* Hero Section */}
@@ -116,7 +121,7 @@ export default function Home() {
                 Te acompañamos en el aprovechamiento de las subvenciones del programa Kit Digital, 
                 integrando soluciones de IA que maximizan el retorno de tu inversión tecnológica.
               </p>
-              <a href="#kitdigital" className="inline-flex items-center text-green-600 font-semibold hover:text-green-700 transition-colors">
+              <a href="/agente-digitalizador-mallorca" className="inline-flex items-center text-green-600 font-semibold hover:text-green-700 transition-colors">
                 Saber más
                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -148,8 +153,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <KitDigital />
 
       {/* Stats Section */}
       <section className="py-20 bg-gradient-to-r from-blue-900 to-indigo-900 text-white">

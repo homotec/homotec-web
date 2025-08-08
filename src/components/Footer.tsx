@@ -65,11 +65,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/#kitdigital" className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 flex items-center group">
+                <Link href="/agente-digitalizador-mallorca" className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 flex items-center group">
+                  <svg className="w-4 h-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
                   Kit Digital
-                  <span className="ml-2 inline-block px-2 py-1 text-xs font-semibold text-blue-800 bg-cyan-400 rounded-full group-hover:bg-white transition-all duration-300">
-                    Ahora
-                  </span>
                 </Link>
               </li>
               <li>

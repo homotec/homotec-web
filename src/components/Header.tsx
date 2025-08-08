@@ -54,7 +54,7 @@ const Header = () => {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
               </Link>
               <Link 
-                href="/#kitdigital" 
+                href="/agente-digitalizador-mallorca" 
                 className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 relative group"
               >
                 Kit Digital
@@ -121,7 +121,7 @@ const Header = () => {
                 Odoo
               </Link>
               <Link 
-                href="/#kitdigital" 
+                href="/agente-digitalizador-mallorca" 
                 className="px-4 py-3 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-300 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -145,21 +145,6 @@ const Header = () => {
           </div>
         </div>
       </header>
-      {pathname === '/#kitdigital' && (
-        <div className="bg-white py-10 w-full border-b">
-          <div className="container mx-auto px-4">
-            <div className="flex justify-center">
-              <Image 
-                src="/images/kit-digital/logo-kit-digital.svg" 
-                alt="Logos del programa Kit Digital y fondos Europeos"
-                width={900}
-                height={108}
-                className="w-full max-w-5xl"
-              />
-            </div>
-          </div>
-        </div>
-      )}
     </>
   );
 };
