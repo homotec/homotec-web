@@ -285,7 +285,7 @@ export default function AgenteDigitalizadorMallorca() {
               Pizzeria La Capricciosa
             </a>
             <a href="https://www.sestepa.com/" target="_blank" rel="noopener noreferrer" className="flex justify-center text-gray-600 font-semibold hover:text-blue-600 transition-colors">
-              S'Estepa Jardinería
+              S&apos;Estepa Jardinería
             </a>
           </div>
         </div>
